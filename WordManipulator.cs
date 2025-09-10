@@ -10,7 +10,7 @@ namespace WordReverser {
             string word = "";
             List<string> words = new List<string>();
 
-            for(int i = 0; i < input.Length(); i++) { // use length instead of count
+            for(int i = 0; i < input.Length; i++) { // use length instead of count
                 
                 if(char.IsWhiteSpace(input[i])) {  //change char.IsLetter
                     word = word + input[i];
